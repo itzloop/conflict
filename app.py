@@ -5,9 +5,15 @@ from flask import Flask
 app = Flask(__name__)
 
 
+<<<<<<< HEAD
 @app.route("/bye")
 def main():
     return "Byeeee, Have Great Time :)"
+=======
+@app.route("/hello")
+def main():
+    return "Hello There..."
+>>>>>>> feat2
 
 
 @app.route("/")
